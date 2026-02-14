@@ -1,0 +1,64 @@
+.bg-header {
+  padding: 1.5rem;
+  background-image: url(../../assets/background.jpeg);
+  background-size: 200%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+}
+
+.skillh4 {
+  font-size: 2.2rem;
+  color: var(--fix-clr);
+}
+
+.skillh4:hover {
+  color: var(--background-clr);
+}
+
+.black-inverse {
+  background: var(--fix-clr);
+  border: 0.1rem solid var(--fix-clr);
+  color: var(--accent-clr);
+}
+
+.gap-5 {
+  gap: 6rem;
+}
+
+.feature {
+  color: var(--text-primary-clr);
+}
+
+.check {
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+  background: var(--accent-clr);
+  color: var(--background-clr);
+  border-radius: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.check:hover {
+    rotate: 360deg;
+    transition: 2s;
+    color: white;
+    background-color: black;
+    border: 2px solid gray;
+}
+
+.p-2 {
+  margin-top: 0.3rem;
+  padding: 0.6rem;
+}
+
+.card ul {
+  margin-top: 10px;
+  text-align: center;
+  font: bold;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

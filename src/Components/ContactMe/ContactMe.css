@@ -1,0 +1,79 @@
+form {
+  flex: 2;
+  flex-basis: 300px;
+}
+
+.info {
+  flex: 1;
+  flex-basis: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.detail {
+  background: var(--surface-clr);
+  padding: 1.5rem;
+  border-radius: 1rem 1rem 0 0;
+  border: 0.1rem solid rgba(123, 123, 123, 0.2);
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.detail h6 {
+  font-size: 1.5rem;
+  text-align: start;
+}
+
+.rounded-b {
+    border-radius: 0 0 1rem 1rem;
+}
+
+.rounded-b h5{
+    font-size: 1.5rem;
+    text-align: start;
+}
+
+.input-container{
+  flex: 1;
+  text-align: start; 
+}
+
+label{
+ font-size: .9rem;
+ color: var(--text-primary-clr);
+}
+
+.input-field {
+  width: 100%;
+  background: var(--surface-clr);
+  border: .1rem solid rgba(123, 123, 123, 0.2);
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-top: .5rem;
+  color: rgb(190, 128, 12);
+}
+
+.select,.input-field::placeholder {
+    color: gray;
+}
+
+.input-field:focus {
+  outline: .09rem solid var(--accent-clr);
+}
+
+textarea {
+  resize: none;
+}
+
+.start {
+  text-align: start;
+}
+
+.icon-container:hover {
+  color: orangered;
+  border: .1rem solid orangered;
+}
