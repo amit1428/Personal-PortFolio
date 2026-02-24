@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { FiSun } from "react-icons/fi";
 import { FaBarsStaggered, FaXmark } from "react-icons/fa6";
 import { IoMoonOutline } from "react-icons/io5";
-import logo from '../../assets/logo.webp'
+// import logo from '../../assets/logo.webp'
 
 import "./Navbar.css";
 

@@ -10,7 +10,9 @@
 .p-block-2{
     padding-block: 2rem;
 }
-
+.foot {
+    color: gray;
+}
 
 .p-block-7{
     padding-block: 7rem;

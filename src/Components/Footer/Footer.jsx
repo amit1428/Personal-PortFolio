@@ -35,8 +35,8 @@ const Footer = () => {
 
         <div className="p-block-7 flex flex-start gap-4">
           <div className="footer-wrapper">
-            <a href="#" className="logo">
-              <span>A</span> Amit.
+            <a href="#" className="logo foot" >
+              <span>𝔸</span> ᗩᗰIT.
             </a>
 
             <p className="mt-2">

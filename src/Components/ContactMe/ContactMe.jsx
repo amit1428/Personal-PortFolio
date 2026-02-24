@@ -58,7 +58,7 @@ const ContactMe = () => {
                     id="name"
                     required
                     autoComplete="off"
-                    placeholder="Ex.John Doe"
+                    placeholder="Ex.Amit Jadhav"
                     className="input-field"
                   />
                 </div>
@@ -201,9 +201,9 @@ const ContactMe = () => {
                   <a href="#" className="icon-container black-inverse">
                     <FaSquareInstagram />
                   </a>
-                  <a href="#" className="icon-container black-inverse">
+                  {/* <a href="#" className="icon-container black-inverse">
                     <SiNetlify />
-                  </a>
+                  </a> */}
                   <a href="#" className="icon-container black-inverse">
                     <FaLinkedin />
                   </a>
